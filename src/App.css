@@ -1,5 +1,13 @@
 .Header {
-  background-color: black;
+  background-color: rgb(20, 194, 43);
   color: white;
   height: 250px;
+}
+
+.Home {
+  padding-left: 10px;
+}
+
+.Hackflix {
+  padding-right: 10px;
 }

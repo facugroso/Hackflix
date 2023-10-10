@@ -1,0 +1,12 @@
+.header-container {
+  position: relative; /* Para que los elementos posicionados sean relativos a este contenedor */
+}
+
+.background-image {
+  position: absolute; /* Colocar la imagen en una posición absoluta dentro del contenedor */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ajustar el ancho y alto según tus necesidades */
+  height: 100%;
+  z-index: -1; /* Colocar la imagen detrás de otros elementos */
+}

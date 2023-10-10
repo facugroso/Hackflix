@@ -8,7 +8,7 @@ function Filter({ setRating }) {
   };
 
   return (
-    <div className="text-center my-3 d-flex  justify-content-center">
+    <div className="my-3 d-flex  justify-content-center align-items-center">
       <h2>Filtrar por rating:</h2> <Rating onClick={handleRating} />
     </div>
   );
