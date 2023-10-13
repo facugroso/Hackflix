@@ -1,12 +1,31 @@
 .header-container {
-  position: relative; /* Para que los elementos posicionados sean relativos a este contenedor */
+  position: relative;
+}
+.barTop {
+  width: 100%;
+}
+.bacroundImg {
+  /* https://api.themoviedb.org/3/movie/{movie_id}/images */
+  background-image: url("public/img/fontPage.png");
+  background-size: cover; /* Otra propiedad para ajustar el tamaño del fondo */
+  width: 100%;
+  height: 250px; /* Ajusta la altura según tus necesidades */
 }
 
-.background-image {
-  position: absolute; /* Colocar la imagen en una posición absoluta dentro del contenedor */
-  top: 0;
-  left: 0;
-  width: 100%; /* Ajustar el ancho y alto según tus necesidades */
-  height: 100%;
-  z-index: -1; /* Colocar la imagen detrás de otros elementos */
+.text-white {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Sombra con desplazamiento x, desplazamiento y y difuminado */
+}
+.text-white {
+  font-weight: bold;
+}
+
+.text-white {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Fondo semitransparente en color negro */
+  color: white;
+  padding: 5px 10px; /* Añade espacio alrededor del texto para que el fondo sea visible */
 }

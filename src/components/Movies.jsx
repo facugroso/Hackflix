@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Movie from "./Movie";
 import axios from "axios";
 import InfiniteScroll from "react-infinite-scroll-component";
+import "./Movies.css";
 
 function Movies({ rating }) {
   const [movies, setMovies] = useState([]);

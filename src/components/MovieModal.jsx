@@ -9,6 +9,7 @@ function MovieModal({ show, handleClose, movie }) {
         <Modal.Header closeButton>
           <Modal.Title>{movie.title}</Modal.Title>
         </Modal.Header>
+
         <Modal.Body>
           <img
             className="img-fluid"
@@ -16,6 +17,7 @@ function MovieModal({ show, handleClose, movie }) {
             alt={movie.title}
           />
         </Modal.Body>
+
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
